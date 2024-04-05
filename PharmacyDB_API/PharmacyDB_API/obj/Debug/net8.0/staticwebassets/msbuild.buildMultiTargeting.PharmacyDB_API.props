@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PharmacyDB_API.props" />
+</Project>

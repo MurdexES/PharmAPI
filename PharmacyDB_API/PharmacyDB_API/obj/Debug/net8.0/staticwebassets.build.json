@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WGm7Bh9fx/6Ro0NkFtFk3Vch+HdntmaraccVjEr/ePM=",
+  "Source": "PharmacyDB_API",
+  "BasePath": "_content/PharmacyDB_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
