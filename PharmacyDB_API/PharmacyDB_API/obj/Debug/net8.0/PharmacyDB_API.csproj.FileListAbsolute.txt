@@ -33,3 +33,14 @@ Q:\Projects\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\refint\PharmacyDB_API
 Q:\Projects\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.pdb
 Q:\Projects\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.genruntimeconfig.cache
 Q:\Projects\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\ref\PharmacyDB_API.dll
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.csproj.AssemblyReference.cache
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.GeneratedMSBuildEditorConfig.editorconfig
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.AssemblyInfoInputs.cache
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.AssemblyInfo.cs
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.csproj.CoreCompileInputs.cache
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.MvcApplicationPartsAssemblyInfo.cs
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.MvcApplicationPartsAssemblyInfo.cache
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.sourcelink.json
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.dll
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\refint\PharmacyDB_API.dll
+Q:\Projects\PharmAPI\PharmacyDB_API\PharmacyDB_API\obj\Debug\net8.0\PharmacyDB_API.pdb

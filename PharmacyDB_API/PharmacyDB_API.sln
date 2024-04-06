@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyDB_API", "PharmacyDB_API\PharmacyDB_API.csproj", "{CFA64FEE-21EA-4EA1-B226-8AC6ED99C583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PharmacyDB_API", "PharmacyDB_API\PharmacyDB_API.csproj", "{CFA64FEE-21EA-4EA1-B226-8AC6ED99C583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrators", "Migrators", "{9955E288-48C0-4937-9B0E-8BA6CC10DF8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqliteMigrations", "Migrators\SqliteMigrations\SqliteMigrations.csproj", "{7CBFB826-474D-4FD1-BEAA-9893E5994DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{E1C5D485-A42F-4D20-A9EA-C25EED8FD9C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresMigrations", "Migrators\PostgresMigrations\PostgresMigrations.csproj", "{5F3A961E-40E6-4F0B-9595-407B97A5ED5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MssqlMigrations", "Migrators\MssqlMigrations\MssqlMigrations.csproj", "{DFDAC506-3459-46A3-97B4-39D7B8C10206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,30 @@ Global
 		{CFA64FEE-21EA-4EA1-B226-8AC6ED99C583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA64FEE-21EA-4EA1-B226-8AC6ED99C583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA64FEE-21EA-4EA1-B226-8AC6ED99C583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBFB826-474D-4FD1-BEAA-9893E5994DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBFB826-474D-4FD1-BEAA-9893E5994DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBFB826-474D-4FD1-BEAA-9893E5994DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBFB826-474D-4FD1-BEAA-9893E5994DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C5D485-A42F-4D20-A9EA-C25EED8FD9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C5D485-A42F-4D20-A9EA-C25EED8FD9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C5D485-A42F-4D20-A9EA-C25EED8FD9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C5D485-A42F-4D20-A9EA-C25EED8FD9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3A961E-40E6-4F0B-9595-407B97A5ED5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3A961E-40E6-4F0B-9595-407B97A5ED5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3A961E-40E6-4F0B-9595-407B97A5ED5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3A961E-40E6-4F0B-9595-407B97A5ED5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDAC506-3459-46A3-97B4-39D7B8C10206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDAC506-3459-46A3-97B4-39D7B8C10206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDAC506-3459-46A3-97B4-39D7B8C10206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDAC506-3459-46A3-97B4-39D7B8C10206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CBFB826-474D-4FD1-BEAA-9893E5994DDB} = {9955E288-48C0-4937-9B0E-8BA6CC10DF8D}
+		{5F3A961E-40E6-4F0B-9595-407B97A5ED5B} = {9955E288-48C0-4937-9B0E-8BA6CC10DF8D}
+		{DFDAC506-3459-46A3-97B4-39D7B8C10206} = {9955E288-48C0-4937-9B0E-8BA6CC10DF8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F38352E7-2B78-4D13-BD12-71FFEB0F5C23}

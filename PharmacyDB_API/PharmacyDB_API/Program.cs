@@ -1,12 +1,11 @@
+using Data;
 using Microsoft.EntityFrameworkCore;
-using PharmacyDB_API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddDbContext<ApiContext>
-    (opt => opt.UseInMemoryDatabase("PharmacyDb"));
+builder.Services.AddDbContext<ApiContext>(opt 
+    => opt.UseSqlite(builder.Configuration.GetConnectionString("Sqlite")));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -18,6 +17,10 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    using var scope = app.Services.CreateScope();
+    var context = scope.ServiceProvider.GetRequiredService<ApiContext>();
+    await DbInitialize.Initialize(context);
+
     app.UseSwagger();
     app.UseSwaggerUI();
 }
